@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDeImportaçãoDeArquivo", "AppDeImportaçãoDeArquivo\AppDeImportaçãoDeArquivo.csproj", "{D68BD78C-F9AE-4FCF-B771-DED4B581311C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDeImportaçãoDeArquivo", "AppDeImportaçãoDeArquivo\AppDeImportaçãoDeArquivo.csproj", "{D68BD78C-F9AE-4FCF-B771-DED4B581311C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6E3C521-0145-4A4E-87C9-E28FE9E614C3}"
 EndProject
@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Service", "3-Service", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{3CC14AAF-07BB-4413-A203-8524C084CA02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Data", "4.1 Data", "{1454A9A3-EB3E-4EA4-A24F-0E2443F0CA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportarArquivo.Infra", "ImportarArquivo.Infra\ImportarArquivo.Infra.csproj", "{D11538C0-82F2-4859-A7BA-F2BE405BD041}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{D68BD78C-F9AE-4FCF-B771-DED4B581311C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D68BD78C-F9AE-4FCF-B771-DED4B581311C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D68BD78C-F9AE-4FCF-B771-DED4B581311C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11538C0-82F2-4859-A7BA-F2BE405BD041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11538C0-82F2-4859-A7BA-F2BE405BD041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11538C0-82F2-4859-A7BA-F2BE405BD041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11538C0-82F2-4859-A7BA-F2BE405BD041}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +43,8 @@ Global
 		{46E546F1-4C8B-4CB7-A6DC-0C65D86019F7} = {F6E3C521-0145-4A4E-87C9-E28FE9E614C3}
 		{61AD95D1-2900-439D-94C1-10470E1B8E08} = {F6E3C521-0145-4A4E-87C9-E28FE9E614C3}
 		{3CC14AAF-07BB-4413-A203-8524C084CA02} = {F6E3C521-0145-4A4E-87C9-E28FE9E614C3}
+		{1454A9A3-EB3E-4EA4-A24F-0E2443F0CA11} = {3CC14AAF-07BB-4413-A203-8524C084CA02}
+		{D11538C0-82F2-4859-A7BA-F2BE405BD041} = {1454A9A3-EB3E-4EA4-A24F-0E2443F0CA11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {019750FE-5746-488A-B161-B6BA42E8F543}
