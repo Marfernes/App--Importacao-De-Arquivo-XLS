@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportarArquivoXLS.Domain",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportarArquivoXLS.Infra", "ImportarArquivoXLS.Infra\ImportarArquivoXLS.Infra.csproj", "{2171F4C3-7C5F-4BCD-A818-419AD8DD00F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportarArquivoService", "ImportarArquivoService\ImportarArquivoService.csproj", "{8F2B89FC-0570-47B1-B207-091D7F01F4FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2171F4C3-7C5F-4BCD-A818-419AD8DD00F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2171F4C3-7C5F-4BCD-A818-419AD8DD00F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2171F4C3-7C5F-4BCD-A818-419AD8DD00F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2B89FC-0570-47B1-B207-091D7F01F4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2B89FC-0570-47B1-B207-091D7F01F4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2B89FC-0570-47B1-B207-091D7F01F4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2B89FC-0570-47B1-B207-091D7F01F4FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{41FCD75D-1F01-4FE1-BCD5-57676782F0DF} = {F6E3C521-0145-4A4E-87C9-E28FE9E614C3}
 		{A29574B0-663C-4BCA-9F0A-9DDB73828B8E} = {41FCD75D-1F01-4FE1-BCD5-57676782F0DF}
 		{2171F4C3-7C5F-4BCD-A818-419AD8DD00F7} = {1454A9A3-EB3E-4EA4-A24F-0E2443F0CA11}
+		{8F2B89FC-0570-47B1-B207-091D7F01F4FE} = {61AD95D1-2900-439D-94C1-10470E1B8E08}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {019750FE-5746-488A-B161-B6BA42E8F543}
