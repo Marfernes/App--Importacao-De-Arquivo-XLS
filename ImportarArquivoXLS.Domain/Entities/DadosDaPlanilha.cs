@@ -9,7 +9,6 @@ namespace ImportarArquivoXLS.Domain
         {
 
         }
-
         [Key]
         public Guid PagamentoID { get; set; }
 
